@@ -1,0 +1,16 @@
+{
+    "version": "1.2",
+    "description": "Unlock stubborn files",
+    "homepage": "https://www.iobit.com/en/iobit-unlocker.php",
+    "url": "https://cdn.iobit.com/dl/unlocker-setup.exe",
+    "hash": "13f6b7d53e238f20d8a3bbae785f21fb37cbaa5eb6ae5edd23200c677db48239",
+    "installer": {
+        "file": "unlocker-setup.exe",
+        "args": [
+            "/verysilent"
+        ]
+    },
+    "uninstaller": {
+        "script": "cd 'C:\\Program Files (x86)\\IObit\\IObit Unlocker\\' && .\\unins000.exe /verysilent"
+    }
+}
